@@ -1,0 +1,4 @@
+git add .
+git commit -m "your message ie Changed footer"
+git pull --rebase origin main  # This is the command used when U share same repo with others
+git push origin main

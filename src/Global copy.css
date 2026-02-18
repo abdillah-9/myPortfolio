@@ -1,0 +1,157 @@
+*{
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body, html{
+  margin: 0;
+  padding: 0;
+}
+@keyframes anime{
+  0%{
+   transform: translateY(1px) scaleY(1);
+   opacity: 0;
+  }
+  20%{
+   transform: translateY(20px) scaleY(1.5);
+   opacity: 1;
+  }
+  100%{
+   transform: translateY(20px) scaleY(1.5);
+   opacity: 1;
+  }
+}
+.anime{
+  color: red;
+ animation-name: anime;
+ animation-duration: 4.5s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in; 
+}
+.hoverAnime{
+  color: blue;
+  font-weight: 700;
+}
+.hoverAnimeCss{
+  transform: translateY(10px) rotate(0deg);
+  font-weight: 900;
+  font-size: 50px;
+}
+.hoverAnimeCss:hover{
+  color: rgb(4, 111, 4);
+  transform: translateY(20px);
+  text-shadow: 2px 1px 10px red;
+}
+.hoverAnimeCss:nth-child(3n):hover{
+  transform: rotate(95deg);
+}
+.hoverAnimeCss:nth-child(3n+1):hover{
+  transform: rotate(14deg);
+}
+.hoverAnimeCss:nth-child(3n+2):hover{
+  transform: rotate(8deg);
+}
+.svg-webDev {            /* text itself is invisible */
+  stroke: #24797B;         /* color of the “draw” */
+  stroke-width: 2;
+  stroke-dasharray: 370;   /* total length of stroke */
+  stroke-dashoffset: 370;  /* hide entire stroke initially */
+  animation: svgwebDev 2.5s ease-out forwards;
+}
+
+@keyframes svgwebDev{
+  from{
+    stroke-dashoffset: 370;
+    fill: none;
+  }
+  to{
+    stroke-dashoffset: 0;
+    fill: #24797B;
+  }
+}
+.svg-webDev:nth-child(3n):hover{
+  animation-name: svgAnime;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.svg-webDev:nth-child(3n+1):hover{
+  animation-name: svgAnime;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.svg-webDev:nth-child(3n+2):hover{
+  animation-name: svgAnime;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.projectHover:hover{
+  transform: scale(1.2);
+}
+
+
+.svg-text {
+  fill: none;              /* text itself is invisible */
+  stroke: #24797B;         /* color of the “draw” */
+  stroke-width: 2;
+  stroke-dasharray: 370;   /* total length of stroke */
+  stroke-dashoffset: 370;  /* hide entire stroke initially */
+}
+
+@keyframes svgAnime{
+  from{
+    stroke-dashoffset: 250;
+  }
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+.svg-text:nth-child(3n):hover{
+  animation-name: svgAnime;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.svg-text:nth-child(3n+1):hover{
+  animation-name: svgAnime;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.svg-text:nth-child(3n+2):hover{
+  animation-name: svgAnime;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 900;
+  background-size: 500%;
+  background-image: linear-gradient(90deg, red, yellow, blue);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation-name: step05;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes step05{
+  from{
+    background-position: 0% 50%;
+  }
+  to{
+     background-position: 100% 50%;
+  }
+}
+
