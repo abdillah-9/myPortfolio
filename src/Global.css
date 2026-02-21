@@ -23,7 +23,7 @@ body, html{
 }
 @media screen and (max-width:840px){
   .svg-webDev{
-    font-size: 48px;
+    font-size: 54px;
   }
   .svg-Container{
     height: 150px;
