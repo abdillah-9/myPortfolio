@@ -1,6 +1,7 @@
 import { TbBrandLinkedinFilled, TbBrandWhatsappFilled } from 'react-icons/tb';
 import agrohub from '../../src/assets/agrohub2.png';
 import tanzcoff from '../../src/assets/tanzcoff5.png';
+import myPic from '../../src/assets/myPic2.jpeg';
 import mwangaza from '../../src/assets/mwangaza1.png';
 import Owur from '../../src/assets/Owur.jpg';
 import logo from '../../src/assets/logo3.svg';
@@ -565,7 +566,7 @@ function About({ colors, aboutRef }) {
                   </clipPath>
                 </defs>
                 <image
-                  href={agrohub}
+                  href={myPic}
                   width="100%"
                   height="100%"
                   preserveAspectRatio="xMidYMid slice"
