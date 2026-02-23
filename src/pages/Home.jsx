@@ -1,7 +1,7 @@
 import { TbBrandLinkedinFilled, TbBrandWhatsappFilled } from 'react-icons/tb';
 import agrohub from '../../src/assets/agrohub2.png';
 import tanzcoff from '../../src/assets/tanzcoff5.png';
-import myPic from '../../src/assets/myPic2.jpeg';
+import myPic from '../../src/assets/me20.png';
 import mwangaza from '../../src/assets/mwangaza1.png';
 import Owur from '../../src/assets/Owur.jpg';
 import logo from '../../src/assets/logo3.svg';
@@ -408,7 +408,7 @@ function Navbar({ colors, scrollToSection, refs }) {
         backgroundColor: colors.primary.base,
         display: "flex",
         flexWrap: "wrap",
-        padding: "15px 7px",
+        padding: "15px 10px 15px 7px",
         alignItems: "center",
         justifyContent: "space-between",
         position: "sticky",
@@ -436,7 +436,7 @@ function Navbar({ colors, scrollToSection, refs }) {
         <span               
           style={{
             cursor: "pointer",
-            fontSize:'25px',
+            fontSize:'28px',
             padding: "8px 14px",
             borderRadius: "6px",
             transition: "all 0.25s ease",
@@ -556,9 +556,9 @@ function About({ colors, aboutRef }) {
               }}
             >
           <svg
-            viewBox="0 0 580 590"
+            viewBox="0 0 610 610"
             style={{ width: '100%', height: '100%', display: 'block' }}
-            preserveAspectRatio="none"
+            preserveAspectRatio="xMidYMid slice"
           >
                 <defs>
                   <clipPath id="aboutClip">
